@@ -5,6 +5,6 @@
 $ ->
   $('#pics').masonry ->
     itemSelector: '.box',
-    columnWidth: 200,
+    columnWidth: 300,
     isAnimated: !Modernizr.csstransitions,
     isFitWidth: true
